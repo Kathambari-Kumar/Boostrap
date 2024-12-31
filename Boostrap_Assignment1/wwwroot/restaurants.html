@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <div id="nav_head">
+        <header id="main-header">
+            VENICE - CITY OF CANALS
+        </header>
+        <div id="nav">
+            <nav>
+                <ul id="unordered_list">
+                    <li id="list_items"> <a href="index.html" id="list_items"> Home</a></li>
+                    <li id="list_items"> <a href="#" id="list_items"> Restaurants</a></li>
+                    <li id="list_items"> <a href="Places.html" id="list_items"> Top Attractions </a></li>
+                    <li id="list_items"> <a href="Carnival.html" id="list_items"> Carnival </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="left">
+            <img id="food" src="Images/food1.jpeg" width="120" height="120" />
+            <img id="food" src="Images/food2.jpeg" width="120" height="120" />
+            <img id="food" src="Images/food3.jpeg" width="120" height="120" />
+        </div>
+
+        <div id="right">
+            <div id="right_left">
+                <br /><br />
+                <h2 style="text-align:center; color:blue">In a nutshell: Venetian Cousine</h2>
+                <p id="P1">
+                    Cuisine in Veneto is divided into three main categories, based on geography:
+                    the coastal areas, the plains, and the mountains.
+                    Each one can have many local cuisines, each city with its own dishes.
+                </p>
+
+                <p id="P2">
+                    Typical of many coastal areas, communities along the coast of the Venetian Lagoon serve mainly
+                    seafood dishes. In the plains it is very popular to serve grilled meat (often by a barbecue, and
+                    in a mix of pork, beef and chicken meat) together with grilled polenta, potatoes or vegetables.
+                </p>
+                <p id="P3">
+                    Because of its geographical position, the traditional Venetian cuisine has always been based on fish,
+                    wild game, and any kind of seafood available in the lagoon, in the Adriatic sea… and in the North Sea!
+                </p>
+                <p id="P4">
+                    Along the abundant amount of seafood available, the Venetian cuisine is based also on vegetables
+                    that can grow in the surrounding area,
+                    such as peas, beans, asparaguses, artichokes and radicchio
+                </p>
+                <p id="P5">
+                    Nowadays the Venetian cuisine is a combination of traditional local dishes which show influences
+                    from the Italian and Mediterranean cuisine,
+                    and great importance is given to seafood, risottos, and soups.
+                </p>
+            </div>
+            <div id="right_right">
+                <p id="p1"> Top 10 Restaurants </p>
+                <p id="p2">
+
+                    1. Ristorante Glam <br />
+                    2. Ridotto Restaurant <br />
+                    3. Osteria Enoteca <br />
+                    4. Dan Primo <br />
+                    5. Osteria AI Merca <br />
+                    6. Ristorante Da Ivo <br />
+                    7. Trattoria al Gatto Nero <br />
+                    8. Enoteca AI Volto <br />
+                    9. La Zucca <br />
+                    10.La Palanca <br />
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 KATHAMBARI INDRAJITH</p>
+    </footer>
+
+    <style>
+
+        body {
+            /*width : 1000px;*/
+            margin-top: 0px;
+            margin-bottom: 0px; /* place the content all the way to top and bottom*/
+            margin-left: auto;
+            margin-right: auto; /* content of the body centered*/
+        }
+
+        #nav_head {
+            height: 90px;
+            background-color: black;
+        }
+
+        #main-header {
+            height: 30px;
+            background-color: black;
+            padding-top: 2px;
+            text-align: center;
+            font: bold;
+            color: darksalmon;
+            font-size: 27px;
+            font-family: 'Comic Sans MS';
+        }
+
+        nav {
+            height: 45px;
+            background-color: darkgrey;
+        }
+
+        #unordered_list {
+            list-style-type: none; /* --> hides the list button */
+            padding-left: 5px;
+        }
+
+        #list_items {
+            display: block;
+            float: left;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-right: solid 1px white;
+            font-size: 18px;
+            font-family: 'Comic Sans MS';
+            padding: 5px 5px 5px 5px;
+        }
+
+            #list_items :last-child {
+                border-right: none;
+            }
+
+            #list_items a:hover {
+                color: black;
+            }
+
+        .active {
+            display: block;
+            float: right;
+            padding: 12px 10px 7px 5px;
+            color: white;
+            font-size: 18px;
+            font-family: 'Comic Sans MS';
+            text-align: center;
+            border-bottom: none;
+            text-decoration: none;
+        }
+
+            .active a:hover {
+                color: black;
+            }
+
+
+        #container {
+            height: 650px;
+            width: 1000px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto; /*make the content centered */
+            margin-bottom: 10px;
+            background-color: dimgray;
+        }
+
+        #left {
+            float: left;
+            height: 600px;
+            width: 180px;
+            background-color: black;
+            margin-left: 10px;
+            margin-top: 25px;
+            border: double 3px darksalmon;
+        }
+
+        #food {
+            padding-left: 20px;
+            padding-top: 60px;
+        }
+
+        #right {
+            float: left;
+            height: 600px;
+            width: 800px;
+        }
+
+        #right_left {
+            float: left;
+            height: 600px;
+            width: 525px;
+            background-color: lawngreen;
+            padding: 10px 10px 0px 10px; /*top right bottom left*/
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 25px;
+            background-color: white;
+            font: bold 15px medium;
+            font-family: 'Comic Sans MS';
+            text-align: justify;
+        }
+
+        #right_right {
+            float: left;
+            height: 600px;
+            width: 200px;
+            background-color: rosybrown;
+            margin-left: 10px;
+            margin-top: 25px;
+            background-color: black;
+            border: double 3px darksalmon;
+        }
+
+        #p1 {
+            padding-top: 130px;
+            font-family: 'Comic Sans MS';
+            font: bold, 14px;
+            text-align: center;
+            color: darksalmon;
+            text-align: center;
+        }
+
+        #p2 {
+            font-family: 'Comic Sans MS';
+            font: bold, 12px;
+            color: white;
+            padding-left: 10px;
+        }
+
+        footer {
+            clear: both; /*no elements going to place after width */
+            width: 100%;
+            background-color: black;
+            padding: 20px;
+            text-align: left;
+            font: bold;
+            font-family: 'Comic Sans MS';
+            color: white;
+        }
+    </style>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

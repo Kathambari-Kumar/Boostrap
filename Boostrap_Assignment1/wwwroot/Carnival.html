@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <div id="nav_head">
+        <header id="main-header">
+            VENICE - CITY OF CANALS
+        </header>
+        <div id="nav">
+            <nav>
+                <ul id="unordered_list">
+                    <li id="list_items"> <a href="index.html" id="list_items"> Home</a></li>
+                    <li id="list_items"> <a href="restaurants.html" id="list_items"> Restaurants</a></li>
+                    <li id="list_items"> <a href="Places.html" id="list_items"> Top Attractions </a></li>
+                    <li id="list_items"> <a href="#" id="list_items"> Carnival </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="left">
+            <img id="mask1" src="Images/mask1.jpeg" width="120" height="120" />
+            <img id="mask1" src="Images/mask2.jpg" width="120" height="120" />
+            <img id="mask1" src="Images/mask3.jpeg" width="120" height="120" />
+        </div>
+
+        <div id="right">
+            <div id="right_left">
+                <br /><br />
+                <h2 style="text-align:center; color:blue">In a nutshell: Carnival of Venice </h2>
+                <p id="P1">
+                    The Carnival of Venice is an annual festival held in Venice, Italy, famous throughout the world
+                    for its elaborate costumes and masks. The Carnival ends on Shrove Tuesday,
+                    which is the day before the start of Lent on Ash Wednesday.
+                </p>
+
+                <p id="P2">
+                    While some other carnivals focus on vibrant colors and bold, thematic outfits,
+                    the Venice Carnival places a strong emphasis on elaborate
+                    masks and opulent costumes, reflecting the grandeur of Venetian history.
+                </p>
+                <p id="P3">
+                    Throughout the Carnival, Venice hosts a variety of events, including street performances,
+                    live music, theatrical shows, grand parades, regattas on the canals,
+                    and competitions for the best masks and costumes.
+                </p>
+                <p id="P4">
+                    While strolling through the charming streets of Venice you’ll come across numerous shops selling
+                    gorgeously decorated Venetian masks, a popular souvenir from Venice.
+                </p>
+                <p id="P5">
+                    However, you can also create your very own unique mask! Join this mask-making class and unleash your creativity.
+                    Then go win some contests with your own handy work!
+                </p>
+            </div>
+            <div id="right_right">
+                <img id="mask2" src="Images/mask1.jpeg" width="120" height="120" />
+                <img id="mask2" src="Images/mask2.jpg" width="120" height="120" />
+                <img id="mask2" src="Images/mask3.jpeg" width="120" height="120" />
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 KATHAMBARI INDRAJITH</p>
+    </footer>
+
+    <style>
+
+        body {
+            /*width : 1000px;*/
+            margin-top: 0px;
+            margin-bottom: 0px; /* place the content all the way to top and bottom*/
+            margin-left: auto;
+            margin-right: auto; /* content of the body centered*/
+        }
+
+        #nav_head {
+            height: 90px;
+            background-color: black;
+        }
+
+        #main-header {
+            height: 30px;
+            background-color: black;
+            padding-top: 2px;
+            text-align: center;
+            font: bold;
+            color: darksalmon;
+            font-size: 27px;
+            font-family: 'Comic Sans MS';
+        }
+
+        nav {
+            height: 45px;
+            background-color: darkgrey;
+        }
+
+        #unordered_list {
+            list-style-type: none; /* --> hides the list button */
+            padding-left: 5px;
+        }
+
+        #list_items {
+            display: block;
+            float: left;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-right: solid 1px white;
+            font-size: 18px;
+            font-family: 'Comic Sans MS';
+            padding: 5px 5px 5px 5px;
+        }
+
+            #list_items :last-child {
+                border-right: none;
+            }
+
+            #list_items a:hover {
+                color: black;
+            }
+
+        .active {
+            display: block;
+            float: right;
+            padding: 12px 10px 7px 5px;
+            color: white;
+            font-size: 18px;
+            font-family: 'Comic Sans MS';
+            text-align: center;
+            border-bottom: none;
+            text-decoration: none;
+        }
+
+            .active a:hover {
+                color: black;
+            }
+
+
+        #container {
+            height: 650px;
+            width: 1000px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto; /*make the content centered */
+            margin-bottom: 10px;
+            background-color: dimgray;
+        }
+
+        #left {
+            float: left;
+            height: 600px;
+            width: 180px;
+            background-color: black;
+            margin-left: 10px;
+            margin-top: 25px;
+            border: double 3px darksalmon;
+        }
+
+
+        #mask1 {
+            padding-left: 20px;
+            padding-top: 60px;
+        }
+
+        #mask2 {
+            padding-left: 30px;
+            padding-top: 60px;
+        }
+
+        #right {
+            float: left;
+            height: 600px;
+            width: 800px;
+        }
+
+        #right_left {
+            float: left;
+            height: 600px;
+            width: 525px;
+            background-color: lawngreen;
+            padding: 10px 10px 0px 10px; /*top right bottom left*/
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 25px;
+            background-color: white;
+            font: bold 15px medium;
+            font-family: 'Comic Sans MS';
+            text-align: justify;
+        }
+
+        #right_right {
+            float: left;
+            height: 600px;
+            width: 200px;
+            background-color: rosybrown;
+            margin-left: 10px;
+            margin-top: 25px;
+            padding-left: 10px;
+            background-color: black;
+            border: double 3px darksalmon;
+        }
+
+        #p1 {
+            padding-top: 130px;
+            font-family: 'Comic Sans MS';
+            font: bold, 14px;
+            text-align: center;
+            color: darksalmon;
+            text-align: center;
+        }
+
+        #p2 {
+            font-family: 'Comic Sans MS';
+            font: bold, 12px;
+            color: white;
+            padding-left: 10px;
+        }
+
+        footer {
+            clear: both; /*no elements going to place after width */
+            width: 100%;
+            background-color: black;
+            padding: 20px;
+            text-align: left;
+            font: bold;
+            font-family: 'Comic Sans MS';
+            color: white;
+        }
+    </style>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

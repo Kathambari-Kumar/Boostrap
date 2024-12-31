@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="Content/CSS/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="Content/CSS/Bootstrap/scss/mystyle.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <!--<nav class="navbar navbar-expand-lg  bg-black">-->
+
+    <div id="header" class="bg-black">
+        <div id="header_left" class="fn font-monospace align-text-bottom text-info fs-2">
+            <header>
+                <img src="Images/logo.png" width="110" height="110" />
+                bootsrap
+            </header>
+        </div>
+
+        <div id="header_right">
+            <nav class="navbar navbar-expand-md navbar-dark bg-black">
+                <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <!-- move the menu to right -->
+                    <a class="navbar-brand text-info fs-5" href="#">Home</a>
+                    <!-- make the list into dropdown -->
+                    <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> </button>-->
+                    <!--<div class="collapse navbar-collapse" id="navbarNavDarkDropdown">-->
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <button class="btn bg-black text-info fs-5 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Venice
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="restaurants.html">Restaurants</a></li>
+                                <li><a class="dropdown-item" href="Places.html">Top Attractions</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="Carnival.html">Carnivals</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-dark-emphasis fs-5" aria-disabled="true">Acqua Alta</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <!-- </div> -->
+    </div>
+    <!--</header>-->
+    <!-- IMAGES -->
+    <div class="container" id="container1">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="rounded float-start" src="Images/Gondola.jpg" width="150" height="150" />
+            </div>
+            <div class="col-md-4">
+                <img class="rounded float-start" src="Images/place2.jpg" width="150" height="150" />
+            </div>
+            <div class="col-md-4">
+                <img class="rounded float-start" src="Images/street1.jpeg" width="150" height="150" />
+            </div>
+        </div>
+    </div>
+
+    <hr class="border border-primary border-2 opacity-75">
+
+    <!-- CAROUSEL -->
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/FotoGrid_20240923_105811948.jpg" class="d-block w-75" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/FotoGrid_20240923_110323079.jpg" class="d-block w-75" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/FotoGrid_20240923_110603622.jpg" class="d-block w-75" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/iMarkup_20240923_111545.jpg" class="d-block w-75" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <hr class="border border-primary border-2 opacity-75">
+
+    <!-- side bars and main content -->
+    <div class="border border-3 bg-light" id="split">
+        <div id="sidebar">
+            <ul class="nav flex-column fs-5">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="restaurants.html">Restaurants</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Places.html">Top Attractions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Carnival.html">Carnival</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Acqua Alta</a>
+                </li>
+            </ul>
+        </div> <!-- side bar close-->
+
+        <div id="content" class="container border-4" style="justify-content:center">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">PAGE-1</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">PAGE-2</li>
+                </ol>
+            </nav>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2> Lorem Ipsum </h2>
+                    <article>
+                        Aenean ornare, massa eget mattis pretium, massa nisl scelerisque purus,
+                        at venenatis nulla sem in lectus. Nullam imperdiet dictum justo, et accumsan dolor sagittis accumsan.
+                        Integer non posuere est. Duis mattis feugiat lectus, vel auctor orci mollis at.
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras nec quam orci.
+                        Curabitur pellentesque massa ut tortor placerat facilisis.
+                    </article>
+
+                    <article>
+                        Aliquam ipsum odio, rhoncus eget fringilla ut, sodales sed quam. Etiam sit amet risus purus.
+                        Etiam et vestibulum ex. Quisque ac est consequat, condimentum enim ut, fringilla tortor.
+                    </article>
+                </div>  <!-- column close-->
+
+                <div class="col-md-4">
+                    <h2> Lorem Ipsum </h2>
+                    <article>
+                        Aenean ornare, massa eget mattis pretium, massa nisl scelerisque purus,
+                        at venenatis nulla sem in lectus. Nullam imperdiet dictum justo, et accumsan dolor sagittis accumsan.
+                        Integer non posuere est. Duis mattis feugiat lectus, vel auctor orci mollis at.
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras nec quam orci.
+                        Curabitur pellentesque massa ut tortor placerat facilisis.
+                    </article>
+
+                    <article>
+                        Aliquam ipsum odio, rhoncus eget fringilla ut, sodales sed quam. Etiam sit amet risus purus.
+                        Etiam et vestibulum ex. Quisque ac est consequat, condimentum enim ut, fringilla tortor.
+                    </article>
+                </div>  <!-- column close-->
+
+                <div class="col-md-4">
+                    <h2> Lorem Ipsum </h2>
+                    <article>
+                        Aenean ornare, massa eget mattis pretium, massa nisl scelerisque purus,
+                        at venenatis nulla sem in lectus. Nullam imperdiet dictum justo, et accumsan dolor sagittis accumsan.
+                        Integer non posuere est. Duis mattis feugiat lectus, vel auctor orci mollis at.
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras nec quam orci.
+                        Curabitur pellentesque massa ut tortor placerat facilisis.
+                    </article>
+
+                    <article>
+                        Aliquam ipsum odio, rhoncus eget fringilla ut, sodales sed quam. Etiam sit amet risus purus.
+                        Etiam et vestibulum ex. Quisque ac est consequat, condimentum enim ut, fringilla tortor.
+                    </article>
+                </div>  <!-- column close-->
+                <a href="Page3.html" style="text-align:right">PAGE-3</a> <!-- breadcrumbs -->
+            </div> <!-- row close -->
+           
+        </div> <!-- content close-->
+    </div>
+       
+    <hr class="border border-primary border-2 opacity-75">
+
+    <!-- CONTACT FORM AND IMAGE -->
+    <div id="form_image">
+        <div class="mb-3" id="form_container">
+            <label for="exampleFormControlTextarea1" class="form-label">NAME : </label>
+            <input type="text" class="form-control">
+            <label for="exampleFormControlInput1" class="form-label">Email address : </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <label for="exampleFormControlTextarea1" class="form-label">Phone Number : </label>
+            <input type="text" class="form-control">
+            <label for="exampleFormControlTextarea1" class="form-label">Message : </label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <br />
+            <input type="button" value="SUBMIT" class="btn btn-success">
+            <input type="button" value="RESET" class="btn btn-danger">
+
+        </div>
+        <div id="image_container">
+            <img src="Images/BGImag1.png" width="300" height="300" />
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-black bg-opacity-75">
+        <div id="footer_left">
+            <button type="button" class="btn btn-default btn-lg">
+                <span style="color:white" class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>
+                Copyright<br />
+                kathambari Indrajith<br />
+                2024 Some Rights Reserved.<br />
+            </button>
+        </div>
+        <div id="footer_right" class="card text-end" style="width: 19rem; height: 6.5rem;">
+            <div class="card-body">
+                <!--<p class="card-title">Bootstrap Assignment</p>-->
+                <p class="card-text">you have reached bottom of the page</p>
+                <a href="#top" class="btn btn-primary">Go to Top</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

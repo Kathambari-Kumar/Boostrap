@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "min.js@0.1.0",
+      "destination": "wwwroot/Content/CSS/Bootstrap/css/min.js/"
+    },
+    {
+      "library": "bootstrap@5.3.3",
+      "destination": "wwwroot/Content/CSS/bootstrap/"
+    }
+  ]
+}
